@@ -2464,8 +2464,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #999999;
+			color: #999999 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2473,8 +2473,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #999999;
+			color: #999999 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2570,7 +2570,15 @@ input, select, textarea {
 			font-size: 0.8em;
 			line-height: 1.5em;
 			margin: 0;
+			text-align: justify; /* Justifica o texto */
+			line-height: 1.6; /* Ajusta a altura da linha para melhor legibilidade */
+			max-width: 800px; /* Define uma largura máxima para o parágrafo */
 		}
+
+		/* .work-item img {
+			max-height: 150px;
+		} */
+		
 
 /* Header */
 
@@ -3261,3 +3269,15 @@ input, select, textarea {
 				top: 0;
 				width: 2.5em;
 			}
+			.feature-points {
+				list-style-type: disc; /* Define os pontos como marcador da lista */
+				padding-left: 20px; /* Adiciona um espaço à esquerda para os pontos */
+				column-count: 2; /* Define o número de colunas */
+				column-gap: 20px; /* Adiciona um espaço entre as colunas */
+			}
+			
+			.feature-points li {
+				margin-bottom: 10px; /* Adiciona um espaço entre os itens da lista */
+			}
+			
+			
