@@ -2575,9 +2575,9 @@ input, select, textarea {
 			max-width: 800px; /* Define uma largura máxima para o parágrafo */
 		}
 
-		/* .work-item img {
-			max-height: 150px;
-		} */
+		.work-item a {
+			margin-top: 15px;
+		}
 		
 
 /* Header */
@@ -2648,7 +2648,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 7.25em;
 		}
 
 /* Footer */
